@@ -1,3 +1,12 @@
+/* Colorblind safe color palette from colorbrewer2.org.
+#bd0026 - Dark Red
+#f03b20 - Red
+#fd8d3c - Orange
+#fecc5c - Light Orange
+#ffffb2 - Yellow
+*/
+
+
 body {
   background-color: #ffffb2;
   color: #f03b20;
