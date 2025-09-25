@@ -1,22 +1,12 @@
-// document.write("Where is my JS code?");
-// window.alert(5 + 6);
-// window.alert('5 + 6');
-// document.write('<h1>A heading</h1>');
-// document.write('<p>A sentence.</p>');
-
-//
-// const x = "web";
-// const y = "mapping";
-// const out = x + y;
-// document.write(out);
-
-// user_name = window.prompt("Please enter your name", "Type your name here");
-// document.write(user_name);
-
-a = 22;
-const b = 33;
-document.writeln(a + b);
-document.writeln("<br>");
-document.writeln(a += b);
-document.writeln("<br>");
-document.writeln(a += b);
+document.writeln("<button onclick='condition()'>Conditional Test</button>");
+function condition()
+  {
+   x = confirm("Are you sure you want to proceed?");
+   if(x) {
+     document.writeln("You chose Okay!");
+         }
+   else
+     {
+      document.writeln("You chose Cancel!");
+     }
+   }
