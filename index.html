@@ -9,15 +9,17 @@
   <div id="body-container">
     <div id="header">
      <h1>
-       <p id="output"></p>
         <script>
-            // Paste the result into the HTML element with id="output"
-            // document.getElementById("output").innerText = "Hello, welcome " + user_name + "!";
+            document.write(welcome());
         </script>
     </h1>
    </div>
    <div id="profile-picture">
-     <img src=images/profile-picture.JPG width=500px height=500px />
+     <img src=images/profile-picture.JPG width=250px height=250px />
+     <P>
+       THIS IS I, I IS ME. <br>
+       <br>
+     </P>
    </div>
    <div id="welcome-text">
     <p>
@@ -38,6 +40,14 @@
       </ol>
      </p>
    </div>
+   <div id="webmap-reviews">
+      <p>
+        <h3>Webmap Reviews</h3>
+          <script>
+            document.write(webmap_table());
+          </script>
+      </p>
+    </div>
    <div id="copyright">
      <script>
         // This adds a new variable that updates with a new data for the copyright section.
